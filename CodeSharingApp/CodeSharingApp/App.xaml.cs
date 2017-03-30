@@ -25,7 +25,7 @@ namespace CodeSharingApp
             // Handle when your app starts
 
             MobileCenter.Start("android=ec285354-7d3d-4a74-9d8e-e305de3ccd20;" +
-                   "ios={Your iOS App secret here}",
+                   "ios=e90f9d57-0352-4487-b4af-214dda997c29;",
                    typeof(Analytics), typeof(Crashes));
         }
 
